@@ -1,0 +1,15 @@
+llm:
+  provider: google
+  config:
+    model: gemini-1.5-pro
+    max_tokens: 250
+    temperature: 0.5
+    top_p: 1
+    stream: false
+
+embedder:
+  provider: google
+  config:
+    model: 'models/text-embedding-004'
+    task_type: "retrieval_document"
+    title: "Embeddings for Embedchain"
