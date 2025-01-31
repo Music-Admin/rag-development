@@ -1,0 +1,5 @@
+rag-apps/
+chroma_db/
+.env
+.python-version
+.DS_Store
